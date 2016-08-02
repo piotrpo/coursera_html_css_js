@@ -5,6 +5,9 @@
 
 h1 {
     text-align: center;
+    font-size: 1.75em;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .menuBoxContainer {
@@ -17,10 +20,11 @@ h1 {
 
 .menuBox {
     border: 1px solid black;
+    background: #888888;
 }
 
 .menuPositionTitle {
-    font-size: 20px;
+    font-size: 1.25em;
     width: 80px;
     text-align: center;
     text-transform: capitalize;
@@ -32,6 +36,7 @@ h1 {
 
 .menuPositionContent {
     clear: both;
+    font-size: 16px;
     padding: 10px;
 }
 
@@ -41,6 +46,7 @@ h1 {
 
 #box2 .menuPositionTitle{
     background-color: #c14644;
+    color: #ffffff;
 }
 
 #box3 .menuPositionTitle{
@@ -48,7 +54,7 @@ h1 {
 }
 
 @media (max-width: 767px) {
-    .menuBoxContainer {
+    .sd_100{
         width: 100%;
     }
 }
@@ -63,7 +69,7 @@ h1 {
     }
 }
 
-@media (min-width: 991px) {
+@media (min-width: 992px) {
 
 }
 

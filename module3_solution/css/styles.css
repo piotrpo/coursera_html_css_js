@@ -1,0 +1,33 @@
+header h1 {
+    font-size: 18px;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+header a:hover {
+    text-decoration: none;
+}
+
+.container-fluid {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header_span {
+    font-size: 18px;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: auto;
+}
+
+#header-nav {
+    margin-bottom: 0px;
+}
+
+#collapsable-nav li {
+    background: #cccccc;
+    border: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+}

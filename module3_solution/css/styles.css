@@ -31,3 +31,7 @@ header a:hover {
     border-width: 1px;
     border-color: #dddddd;
 }
+
+.jumbotron h3 {
+    text-align: center;
+}

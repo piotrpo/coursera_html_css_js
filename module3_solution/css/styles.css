@@ -43,4 +43,11 @@ header a:hover {
     border: solid;
     border-width: 1px;
     border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.return-top:before {
+    content: '\a';
+    white-space: pre;
 }

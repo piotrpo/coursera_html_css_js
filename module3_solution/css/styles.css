@@ -32,6 +32,15 @@ header a:hover {
     border-color: #dddddd;
 }
 
-.jumbotron h3 {
+.single-cell h3 {
     text-align: center;
+}
+
+.single-cell {
+    background-color: #9acfea;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
 }
